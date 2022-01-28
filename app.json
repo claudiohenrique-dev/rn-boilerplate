@@ -3,9 +3,7 @@
     "name": "my-project",
     "slug": "my-project",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"]
   },
   "name": "my-project"
 }
