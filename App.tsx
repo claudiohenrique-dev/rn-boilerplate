@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native'
 
 import { StatusBar } from 'expo-status-bar'
 
-import Button from './src/components/Button'
+import Button from '@components/Button'
 
 export default function App() {
   return (
