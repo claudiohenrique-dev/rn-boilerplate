@@ -1,26 +1,17 @@
+import 'react-native-gesture-handler'
+
 import React from 'react'
 
-import { StyleSheet, Text, View } from 'react-native'
-
 import { StatusBar } from 'expo-status-bar'
+import { GestureHandlerRootView } from 'react-native-gesture-handler'
 
-import Button from '@components/Button'
+import { Routes } from './src/routes'
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <StatusBar style='auto' />
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <Button />
-    </View>
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <StatusBar style='dark' translucent backgroundColor='transparent' />
+      <Routes />
+    </GestureHandlerRootView>
   )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-})
