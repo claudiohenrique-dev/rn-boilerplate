@@ -12,6 +12,7 @@ _PS: some other stuff will be add in future._
 
 ## TO-DO
 
+<<<<<<< HEAD
 - [ ] Setup scripts (from package.json)
 
 - [ ] Theme (ThemeProvider)
@@ -21,3 +22,14 @@ _PS: some other stuff will be add in future._
 - [ ] Tab Navigation (@react-navigation/bottom-tabs)
 
 - [ ] Make some decent layouts
+=======
+[ ] Setup scripts (from package.json)
+
+[ ] Theme (ThemeProvider)
+
+[ ] Fonts (useFonts)
+
+[ ] Tab Navigation (@react-navigation/bottom-tabs)
+
+[ ] Make some decent layouts
+>>>>>>> d0631c124e675493a7c316c8b041b7106decb077
