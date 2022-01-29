@@ -12,7 +12,12 @@ _PS: some other stuff will be add in future._
 
 ## TO-DO
 
-[ ] Theme (ThemeProvider)
-[ ] Fonts (useFonts)
-[ ] Tab Navigation (@react-navigation/bottom-tabs)
-[ ] Make some decent layouts
+- [ ] Setup scripts (from package.json)
+
+- [ ] Theme (ThemeProvider)
+
+- [ ] Fonts (useFonts)
+
+- [ ] Tab Navigation (@react-navigation/bottom-tabs)
+
+- [ ] Make some decent layouts
